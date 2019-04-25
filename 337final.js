@@ -1,5 +1,5 @@
 /*
-Jake Lockett & Jacom Sommer
+Jake Lockett & Jacob Sommer
 CSC 337
 4/24/2019
 337final.js

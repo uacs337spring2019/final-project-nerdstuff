@@ -1,3 +1,9 @@
+/*
+Jake Lockett & Jacob Sommer
+CSC 337
+4/24/2019
+337finalservice.js
+*/
 const express = require("express");
 const app = express();
 const fs = require('fs');
@@ -31,4 +37,4 @@ app.get('/', function (req, res) {
     res.send(JSON.stringify(read[i]));
   }
 })
-app.listen(3000);
+app.listen(process.env.PORT);
