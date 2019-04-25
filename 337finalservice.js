@@ -1,9 +1,3 @@
-/*
-Jake Lockett & Jacob Sommer
-CSC 337
-4/24/2019
-337finalservice.js
-*/
 const express = require("express");
 const app = express();
 const fs = require('fs');
@@ -30,11 +24,11 @@ app.get('/', function (req, res) {
     res.send(JSON.stringify(read[i]));
   }
   if (type=="background") {
-    path="xbackgrounds.txt";
+    path="backgrounds.txt";
     read=fs.readFileSync(path,"utf8");
     read=read.split("\n");
     i=Math.floor(Math.random() * read.length);
     res.send(JSON.stringify(read[i]));
   }
 })
-app.listen(process.env.PORT);
+app.listen(3000);
