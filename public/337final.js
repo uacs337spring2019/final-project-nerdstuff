@@ -64,7 +64,7 @@ CSC 337
             stats.innerHTML=stats.innerHTML+"Intelligence: "+rolls[4]+"<br />";
             stats.innerHTML=stats.innerHTML+"Wisdom: "+rolls[3]+"<br />";
             stats.innerHTML=stats.innerHTML+"Charisma: "+rolls[5]+"<br />";
-            url="https://final-project-nerdstuff.herokuapp.com/?type=race"
+            url="https://final-project-nerdstuff.herokuapp.com/?type=background"
             fetch(url)
               .then(checkStatus)
               .then(function(responseText) {
