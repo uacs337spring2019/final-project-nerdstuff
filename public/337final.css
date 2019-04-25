@@ -1,0 +1,73 @@
+/*
+By: Jake A. Lockett & Jacob Sommer
+337.css
+The stylesheet for the d&d final project
+*/
+body {
+    background-color: #062F4F;
+}
+
+body, a {
+    color: #FFFFFF;
+}
+
+#header, h3, body{
+    margin: 0px;
+}
+
+#header {
+    background-image: url(IMG_20190423_213505_2.jpg);
+    background-repeat: repeat-x;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 span{
+    margin-left: -3px;
+    margin-right: -3px;
+    background-color: #B82601;
+    border: 3px solid white;
+}
+
+table, td, th {
+    border: 2px solid black;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 400px;
+  text-align: center;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+#roll {
+  font-size: 32pt;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-type: "✗";
+}
+
+#generator, #rolling, #links {
+  box-shadow: 10px 10px 8px #272233;
+}
+
+#links {
+    display: block;
+    width: 20%;
+    margin-left: 15%;
+}
+
+#links, #generator, #rolling {
+  background-color: #383838;
+  border: 3px solid white;
+}
